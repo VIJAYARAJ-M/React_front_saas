@@ -1,0 +1,107 @@
+.w{
+    background-color: black !important;
+}
+#eq-triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 104px solid blue;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    transform: rotate(90deg);
+    margin-left: 77px;
+   
+  }
+  
+  #rectangle {
+     width: 40px; 
+     height: 150px;
+     background: blue;
+     margin-left: 40px;
+     transform: rotate(90deg);
+     margin-top: -22px;
+     
+  }
+  .main{
+   
+      display: flex;
+  }
+  .breadcrumb { 
+    list-style: none; 
+    overflow: hidden; 
+    background-color: transparent;
+    font: 18px Helvetica, Arial, Sans-Serif;
+    /* margin: 40px; */
+    padding: 0;
+  }
+  .breadcrumb li { 
+    float: left; 
+  }
+  .breadcrumb li h2 {
+    color: white;
+    text-decoration: none; 
+    padding: 10px 0 10px 55px;  
+    background: brown; /* fallback color */
+    background:#219af7;  
+    position: absolute; 
+    display: block;
+    float: left;
+    width: 498px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+     
+  }
+  .breadcrumb li h2:after { 
+    content: " "; 
+    display: block; 
+    color: azure;
+    width: 0; 
+    height: 0;
+    border-top: 30px solid transparent;           /* Go big on the size, and let overflow hide */
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #219af7;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px; 
+    left: 100%;
+    z-index: 2; 
+  }	
+   /* .breadcrumb li a:before { 
+    content: " "; 
+    display: block; 
+    width: 0; 
+    height: 0;
+    border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+    /* border-bottom: 50px solid transparent; */
+    /* border-left: 30px solid white; */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* margin-top: -50px;  */
+    /* margin-left: 1px; */
+    /* left: 100%; */
+    /* z-index: 1;  */
+  /* }	*/  */
+  .breadcrumb li:first-child a {
+    padding-left: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .breadcrumb li h2 {
+      color: white;
+      text-decoration: none; 
+      padding: 10px 0 10px 55px;  
+      background: brown; /* fallback color */
+      background:#219af7;  
+      position: absolute; 
+      display: block;
+      float: left;
+      width: 340px;
+      align-items: center;
+    display: flex;
+    justify-content: center;
+    }
+  }
+  .card{
+    background-color: #e0e0e0;
+    box-shadow: 10px 10px 15px #9b9b9b, -10px -10px 15px #ffffff;
+  }

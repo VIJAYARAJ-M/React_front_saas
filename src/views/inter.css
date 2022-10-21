@@ -1,0 +1,20 @@
+.cd{
+    width: 170px;
+}
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.css-1s2u09g-control{
+    background-color: #e0e0e0 !important;
+    box-shadow:inset 2px 2px 5px #ffffff, inset -3px -3px 7px #bbbec3;
+}
+.css-12jo7m5{
+    color: black !important;
+    
+}
+.css-14el2xx-placeholder{
+    color: black !important;
+    
+}
+.css-2613qy-menu{
+background-color: aqua !important;
+}
