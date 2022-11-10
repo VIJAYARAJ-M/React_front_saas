@@ -90,7 +90,7 @@ Argon Dashboard React
 └── src
     ├── assets
     │   ├── css
-    │   │   ├── argon-dashboard-react.css
+    │   │   ├──
     │   │   ├── argon-dashboard-react.css.map
     │   │   └── argon-dashboard-react.min.css
     │   ├── fonts
